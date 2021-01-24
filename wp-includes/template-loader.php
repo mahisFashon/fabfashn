@@ -10,6 +10,7 @@ if ( wp_using_themes() ) {
 	 *
 	 * @since 1.5.0
 	 */
+
 	do_action( 'template_redirect' );
 }
 

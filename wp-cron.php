@@ -15,8 +15,10 @@
  *
  * @package WordPress
  */
+define( 'DISABLE_WP_CRON', true );
 
 ignore_user_abort( true );
+error_log("Upto here 1");
 
 /* Don't make the request block till we finish, if possible. */
 if ( function_exists( 'fastcgi_finish_request' ) && version_compare( phpversion(), '7.0.16', '>=' ) ) {
@@ -57,6 +59,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @return string|false Value of the `doing_cron` transient, 0|false otherwise.
  */
 function _get_cron_lock() {
+	error_log("Upto here 2");
 	global $wpdb;
 
 	$value = 0;
@@ -73,6 +76,7 @@ function _get_cron_lock() {
 		}
 	}
 
+	error_log("Upto here 3 " . $value);
 	return $value;
 }
 
@@ -99,6 +103,7 @@ if ( empty( $doing_wp_cron ) ) {
 	} else {
 		$doing_wp_cron = $_GET['doing_wp_cron'];
 	}
+	error_log("Rajesh" . $doing_wp_cron);
 }
 
 /*

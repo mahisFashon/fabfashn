@@ -1,0 +1,110 @@
+
+.customize-control input[type=text].pixels,
+.customize-control input[type=text].percentage,
+.customize-control input[type=text].milliseconds {
+	width: 50px;
+}
+
+.customize-control-warning {
+	color: red;
+	font-weight: 400;
+}
+
+/* Accordion section rollover */
+#customize-theme-controls #accordion-section-colors h3:hover,
+
+#customize-theme-controls #accordion-panel-shopstar-fonts h3:hover,
+	#customize-theme-controls #accordion-section-shopstar-site-title-fonts h3:hover,
+	#customize-theme-controls #accordion-section-shopstar-navigation-menu-fonts h3:hover,
+	#customize-theme-controls #accordion-section-shopstar-slider-fonts h3:hover,
+	#customize-theme-controls #accordion-section-shopstar-heading-fonts h3:hover,
+	#customize-theme-controls #accordion-section-shopstar-body-fonts h3:hover,
+	#customize-theme-controls #accordion-section-shopstar-form-field-fonts h3:hover,
+
+#customize-theme-controls #accordion-panel-shopstar-styling h3:hover,
+	#customize-theme-controls #accordion-section-shopstar-styling-page-builders h3:hover,
+
+#customize-theme-controls #accordion-panel-shopstar-header h3:hover,
+	#customize-theme-controls #accordion-section-shopstar-header-top-bar h3:hover,
+	#customize-theme-controls #accordion-section-shopstar-header-site-logo-area h3:hover,
+	#customize-theme-controls #accordion-section-shopstar-header-text h3:hover,
+
+#customize-theme-controls #accordion-section-shopstar-social h3:hover,
+#customize-theme-controls #accordion-section-shopstar-search h3:hover,
+#customize-theme-controls #accordion-section-shopstar-slider h3:hover,
+#customize-theme-controls #accordion-section-shopstar-blog h3:hover,
+#customize-theme-controls #accordion-section-shopstar-website-text h3:hover,
+#customize-theme-controls #accordion-section-shopstar-media h3:hover {
+    background-color: #000000;
+	border-left-color: #000000;
+	color: #FFFFFF;
+}
+
+/* Accordion arrow icon rollover */
+#customize-theme-controls #accordion-section-colors:hover>.accordion-section-title:after,
+
+#customize-theme-controls #accordion-panel-shopstar-fonts:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-shopstar-site-title-fonts:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-shopstar-navigation-menu-fonts:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-shopstar-slider-fonts:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-shopstar-heading-fonts:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-shopstar-body-fonts:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-shopstar-form-field-fonts:hover>.accordion-section-title:after,
+
+#customize-theme-controls #accordion-panel-shopstar-styling:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-shopstar-styling-page-builders:hover>.accordion-section-title:after,
+
+#customize-theme-controls #accordion-panel-shopstar-header:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-shopstar-header-top-bar:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-shopstar-header-site-logo-area:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-shopstar-header-text:hover>.accordion-section-title:after,
+
+#customize-theme-controls #accordion-section-shopstar-social:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-shopstar-search:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-shopstar-slider:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-shopstar-blog:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-shopstar-website-text:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-shopstar-media:hover>.accordion-section-title:after {
+	color: #FFFFFF !important;
+}
+
+/* Expanded Section heading colors */
+/*
+#accordion-section-colors.control-section.open h3,
+#accordion-section-shopstar-fonts.control-section.open h3,
+#accordion-panel-shopstar-header.control-section.open h3,
+#accordion-section-shopstar-social.control-section.open h3,
+#accordion-section-shopstar-search.control-section.open h3,
+#accordion-section-shopstar-slider.control-section.open h3,
+#accordion-section-shopstar-blog.control-section.open h3,
+#accordion-section-shopstar-website-text.control-section.open h3,
+#accordion-section-shopstar-media.control-section.open h3 {
+    background-color: #000000 !important;
+	border-left-color: #000000;
+	color: #FFFFFF;
+}
+*/
+
+/*
+.out_the_box_upgrade {
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+.out_the_box_upgrade .button {
+	background: none #5cb85c;
+	border-color: #4cae4c;
+	box-shadow: none;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.out_the_box_upgrade .button:hover,
+.out_the_box_upgrade .button:focus {
+	background: none #449d44;
+	border-color: #398439;
+	box-shadow: none;
+	color: #fff;
+}
+*/

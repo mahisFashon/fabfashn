@@ -1,0 +1,48 @@
+﻿Date,"Order #",Status,Customer,Product(s),"Items Sold",Coupon(s),"N. Revenue"
+"2020-12-14 23:03:26",1714,completed,returning,"1× Saree",1,,2000
+"2020-12-14 23:01:58",,completed,new,"'-1× Saree",'-1,,'-2000
+"2020-12-14 23:00:04",,completed,,"'-1× Saree Designer",'-1,,'-2000
+"2020-12-14 22:56:04",1710,completed,new,"1× Kurti, 1× Kurti, 1× Kurti",3,,3320
+"2020-12-14 22:48:12",,completed,returning,"'-1× Kurti, -1× Kurti",'-2,,'-2980
+"2020-12-14 22:44:29",,completed,,"'-1× Saree",'-1,,'-2500
+"2020-12-14 22:37:50",1707,completed,returning,"1× Kurti, 1× Kurti, 1× Kurti",3,,5420
+"2020-12-14 22:30:56",1705,completed,returning,"1× Kurti, 1× Kurti, 1× Kurti, 1× Kurti",4,,5850
+"2020-12-14 21:59:21",1704,completed,new,"1× Saree Designer",1,,1365
+"2020-12-14 21:18:44",1703,completed,new,"1× Kurti",1,,700
+"2020-12-14 01:35:42",1701,completed,new,"1× Saree, 1× Saree, 1× Saree, 1× Saree, 1× Saree, 1× Saree, 1× Saree, 1× Saree, 1× Saree, 1× Saree, 1× Saree",11,,10305
+"2020-12-14 01:30:11",1700,completed,new,"1× Saree",1,,2000
+"2020-12-13 19:09:49",1496,completed,new,"1× Kurti, 1× Kurti",2,,3025
+"2020-12-13 19:01:37",1494,completed,new,"1× Kurti",1,,2000
+"2020-12-13 19:00:29",1493,completed,new,"1× Kurti",1,,1330
+"2020-12-13 18:58:59",1492,completed,new,"1× Saree, 1× Saree, 1× Saree",3,,4200
+"2020-12-13 18:56:51",1491,completed,new,"1× Kurti, 1× Saree, 1× Saree, 1× Kurti",4,,2985
+"2020-12-13 18:52:18",1490,completed,new,"1× Saree, 1× Saree",2,,4350
+"2020-12-13 18:49:29",1489,completed,new,"1× Saree, 1× Kurti",2,,3400
+"2020-12-13 18:45:15",1488,completed,new,"1× Saree, 1× Saree, 1× Saree",3,,4880
+"2020-12-13 18:42:43",1487,completed,new,"1× Saree, 1× Saree",2,,2100
+"2020-12-13 18:39:05",1486,completed,new,"1× Kurti, 1× Kurti",2,,3700
+"2020-12-13 18:36:52",1485,completed,new,"1× Kurti",1,,600
+"2020-12-13 18:30:02",1484,completed,new,"1× Kurti",1,,2050
+"2020-12-13 18:20:51",,completed,,"'-1× Kurti",'-1,,'-1650
+"2020-12-13 18:17:40",1481,completed,new,"1× Kurti, 1× Kurti",2,,2850
+"2020-12-13 18:10:06",1480,completed,new,"1× Kurti",1,,2100
+"2020-12-13 18:08:18",1479,refunded,new,"1× Saree",1,,2500
+"2020-12-13 18:06:51",1478,completed,new,"1× Kurti, 1× Kurti",2,,2200
+"2020-12-13 18:04:00",1477,completed,new,"1× Kurti, 1× Kurti",2,,2580
+"2020-12-13 17:58:50",1476,completed,new,"1× Kurti",1,,2100
+"2020-12-13 05:25:28",1475,completed,new,"1× Saree",1,,1450
+"2020-12-13 05:24:25",1474,completed,new,"1× Saree",1,,1450
+"2020-12-13 05:23:28",1473,completed,new,"1× Kurti",1,,950
+"2020-12-13 05:21:29",1472,completed,new,"1× Kurti",1,,1480
+"2020-12-13 05:20:10",1471,completed,new,"1× Kurti",1,,1100
+"2020-12-13 05:19:29",1470,completed,new,"1× Kurti",1,,1160
+"2020-12-13 05:18:27",1469,completed,new,"1× Saree, 1× Kurti",2,,7500
+"2020-12-13 05:15:21",1468,completed,new,"1× Saree, 1× Saree",2,,4800
+"2020-12-13 01:30:14",1466,completed,new,"1× Saree",1,,990
+"2020-12-13 01:29:10",1465,completed,new,"1× Saree",1,,1450
+"2020-12-13 01:27:13",1464,completed,new,"1× Saree",1,,1000
+"2020-12-13 01:25:23",1463,completed,new,"1× Kurti, 1× Kurti",2,,1400
+"2020-12-13 01:23:13",1462,completed,new,"1× Kurti, 1× Kurti, 1× Kurti, 1× Saree",4,,7980
+"2020-12-13 01:19:32",1461,completed,new,"1× Kurti, 1× Kurti",2,,5400
+"2020-12-13 01:17:09",1460,completed,returning,"1× Saree, 1× Saree",2,,1900
+"2020-12-13 01:12:07",1459,completed,new,"1× Kurti",1,,860
