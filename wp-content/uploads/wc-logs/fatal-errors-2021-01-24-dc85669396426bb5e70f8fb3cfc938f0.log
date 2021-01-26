@@ -1,0 +1,2 @@
+2021-01-24T22:05:39+00:00 CRITICAL syntax error, unexpected 'estore_payment_logo' (T_STRING), expecting ')' in /var/www/html/fabfashn/wp-content/themes/estore/footer.php on line 23
+

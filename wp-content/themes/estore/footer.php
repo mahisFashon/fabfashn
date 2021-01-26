@@ -10,14 +10,14 @@
  */
 ?>
 
-	  <footer id="colophon">
+	 <footer id="colophon">
 		 <?php get_sidebar( 'footer' ); ?>
 		 <div id="bottom-footer" class="clearfix">
 			<div class="tg-container">
 				<div class="copy-right">
-					<?php printf( esc_html__( 'Copyright &copy; %1$s %2$s. All rights reserved.', 'estore' ), date( 'Y' ), '<a href="' . esc_url( home_url( '/' ) ) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . '" ><span>' . get_bloginfo( 'name', 'display' ) . '</span></a>' ); ?>
-					<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'estore' ), '<a href="' . esc_url( 'https://themegrill.com/themes/estore/' ) . '" target="_blank" rel="nofollow">eStore</a>', 'ThemeGrill' ); ?>
-					<?php printf( esc_html__( 'Powered by %s.', 'estore' ), '<a href="' . esc_url( 'https://wordpress.org/' ) . '" target="_blank" rel="nofollow">WordPress</a>' ); ?>
+					<?php printf( esc_html__( 'Copyright FabFashn &copy; %1$s %2$s. All rights reserved .', 'estore' ), date( 'Y' ), '<a href="' . esc_url( home_url( '/' ) ) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . '" ><span>' . get_bloginfo( 'name', 'display' ) . '</span></a>' ); ?>
+					
+					<?php printf( esc_html__( 'Designed by %s.', 'estore' ), '<a href="' . esc_url( 'https://' ) . '" target="_blank" rel="nofollow">Sheetal Shastri</a>' ); ?>
 				</div>
 				<?php
 				$logos = array();
@@ -43,6 +43,6 @@
 	  </footer>
 	  <a href="#" class="scrollup"><i class="fa fa-angle-up"> </i> </a>
    </div> <!-- Page end -->
-   <?php wp_footer(); ?>
+   <?php wp_footer(); ?> 
 </body>
 </html>
