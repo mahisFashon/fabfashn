@@ -324,8 +324,10 @@ if ( ! function_exists( 'estore_template_loop_product_thumbnail' ) ) {
 				<?php if ( get_theme_mod( 'estore_woocommerce_product_thumb_mask', '' ) != 1 ) : ?>
 					<div class="products-hover-wrapper">
 						<div class="products-hover-block">
-							<a href="<?php echo $image_url[0]; ?>" class="zoom" data-rel="prettyPhoto"><i
-										class="fa fa-search-plus"> </i></a>
+							<!--<a href="<?php echo $image_url[0]; ?>" class="zoom" data-rel="prettyPhoto"><i
+										class="fa fa-search-plus"> </i></a>-->
+							<a href="<?php echo esc_url( get_permalink( $product->get_id() ) ); ?>" class="" data-rel="">
+										<i class="fa fa-search-plus"> </i></a>
 
 							<?php woocommerce_template_loop_add_to_cart( $product ); ?>
 						</div>
@@ -348,8 +350,10 @@ if ( ! function_exists( 'estore_template_loop_product_thumbnail' ) ) {
 				<?php if ( get_theme_mod( 'estore_woocommerce_product_thumb_mask', '' ) != 1 ) : ?>
 					<div class="products-hover-wrapper">
 						<div class="products-hover-block">
-							<a href="<?php echo estore_woocommerce_placeholder_img_src(); ?>" class="zoom"
-							   data-rel="prettyPhoto"><i class="fa fa-search-plus"> </i></a>
+							<!--<a href="<?php echo estore_woocommerce_placeholder_img_src(); ?>" class="zoom"
+							   data-rel="prettyPhoto"><i class="fa fa-search-plus"> </i></a>-->
+							<a href="<?php echo esc_url( get_permalink( $product->get_id() ) ); ?>" class=""
+							   data-rel=""><i class="fa fa-search-plus"> </i></a>
 							<?php woocommerce_template_loop_add_to_cart( $product ); ?>
 						</div>
 					</div><!-- featured hover end -->
