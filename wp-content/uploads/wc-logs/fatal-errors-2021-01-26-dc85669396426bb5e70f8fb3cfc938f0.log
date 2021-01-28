@@ -1,0 +1,2 @@
+2021-01-26T21:11:19+00:00 CRITICAL Cannot redeclare woo_new_product_tab_content() (previously declared in /var/www/html/fabfashn/wp-content/themes/estore/functions.php:324) in /var/www/html/fabfashn/wp-content/themes/estore/functions.php on line 330
+
