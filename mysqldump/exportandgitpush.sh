@@ -8,10 +8,12 @@ echo db dump started
 
 mysqldump --insert-ignore --user=root --password=sh22ee05 fabfashn > fabfashn.sql
 #sed -i 's/192.168.1.236/localhost/g' fabfashn.sql
-sed -i "s/$1/$2/g" fabfashn.sql
+#sed -i 's/localhost\\\\\/fabfashn/13.232.43.101\\\\\/fabfashn\\\\\/web/g' fabfashndb.sql
+sed -i "s/$1[\\][\\][\/]fabfashn/$2/g" fabfashn.sql
+sed -i "s/$1[\/]fabfashn/$2/g" fabfashn.sql
 echo db dump done
 
-ct 0 /var/www/html/fabfashn/
+cd /var/www/html/fabfashn/
 
 echo add updated files
 git add *
