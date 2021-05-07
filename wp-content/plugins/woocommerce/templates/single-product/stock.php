@@ -18,6 +18,9 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-
+$localAvailability=wp_kses_post($availability);
+if($localAvailability == "Out of stock") {
 ?>
 <p class="stock <?php echo esc_attr( $class ); ?>"><?php echo wp_kses_post( $availability ); ?></p>
+<?php 
+} ?>

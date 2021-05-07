@@ -1,0 +1,30 @@
+2021-02-27T20:03:54+00:00 CRITICAL Uncaught Error: Call to undefined function Elementor\mb_strtolower() in /var/www/html/fabfashn/wp-content/plugins/elementor/includes/utils.php:551
+Stack trace:
+#0 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/base/element-base.php(468): Elementor\Utils::parse_custom_attributes('Gift-Items')
+#1 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/widgets/image.php(682): Elementor\Element_Base->add_link_attributes('link', Array)
+#2 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/base/controls-stack.php(1894): Elementor\Widget_Image->render()
+#3 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/base/widget-base.php(530): Elementor\Controls_Stack->render_by_mode()
+#4 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/base/widget-base.php(583): Elementor\Widget_Base->render_content()
+#5 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/db.php(195): Elementor\Widget_Base->render_plain_content()
+#6 /var/www/html/fabfashn/wp-content/plugins/elementor in /var/www/html/fabfashn/wp-content/plugins/elementor/includes/utils.php on line 551
+
+2021-02-27T20:04:14+00:00 CRITICAL Uncaught Error: Call to undefined function Elementor\mb_strtolower() in /var/www/html/fabfashn/wp-content/plugins/elementor/includes/utils.php:551
+Stack trace:
+#0 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/base/element-base.php(468): Elementor\Utils::parse_custom_attributes('Gift-Items')
+#1 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/widgets/image.php(682): Elementor\Element_Base->add_link_attributes('link', Array)
+#2 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/base/controls-stack.php(1894): Elementor\Widget_Image->render()
+#3 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/base/widget-base.php(530): Elementor\Controls_Stack->render_by_mode()
+#4 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/base/widget-base.php(583): Elementor\Widget_Base->render_content()
+#5 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/db.php(195): Elementor\Widget_Base->render_plain_content()
+#6 /var/www/html/fabfashn/wp-content/plugins/elementor in /var/www/html/fabfashn/wp-content/plugins/elementor/includes/utils.php on line 551
+
+2021-02-27T20:04:19+00:00 CRITICAL Uncaught Error: Call to undefined function Elementor\mb_strtolower() in /var/www/html/fabfashn/wp-content/plugins/elementor/includes/utils.php:551
+Stack trace:
+#0 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/base/element-base.php(468): Elementor\Utils::parse_custom_attributes('Gift-Items')
+#1 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/widgets/image.php(682): Elementor\Element_Base->add_link_attributes('link', Array)
+#2 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/base/controls-stack.php(1894): Elementor\Widget_Image->render()
+#3 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/base/widget-base.php(530): Elementor\Controls_Stack->render_by_mode()
+#4 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/base/widget-base.php(583): Elementor\Widget_Base->render_content()
+#5 /var/www/html/fabfashn/wp-content/plugins/elementor/includes/db.php(195): Elementor\Widget_Base->render_plain_content()
+#6 /var/www/html/fabfashn/wp-content/plugins/elementor in /var/www/html/fabfashn/wp-content/plugins/elementor/includes/utils.php on line 551
+
