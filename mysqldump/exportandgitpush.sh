@@ -23,6 +23,6 @@ git commit -a -m "latest change added in git repository"
 
 echo push changes
 
-git push 
+git push -f
 
 echo Done!
